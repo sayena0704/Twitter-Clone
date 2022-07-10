@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- main page -->
+    <section class="main-page">
+        <!-- left -->
+        <div class="left">
+            <div class="left-content">
+                <div>
+                    <i class="fas fa-search"></i>
+                    <h3 class="left-content heading">Find your interests</h3>
+                </div>
+                <div>
+                    <i class="fas fa-user friends"></i>
+                    <h3 class="left-content heading">Explore what people are talking about</h3>
+                </div>
+                <div>
+                    <i class="fas fa-comment"></i>
+                    <h3 class="left-content heading">Join the people</h3>
+                </div>
+            </div>
+
+        </div>
+        <!-- end of left -->
+        <!-- right -->
+        <div class="right">
+
+            <form class="right-content-form">
+                <input type="text" class="user-info" placeholder="Phone, E-mail or username" />
+                <div>
+                    <input type="password" class="password" placeholder="Password" />
+                    <label>Forgot Password?</label>
+                </div>
+                <button type="button" class="btn-top">Login</button>
+            </form>
+            <div class="middle-content">
+                <i class="fas fa-dove"></i>
+                <h1>Explore what's happening in the world</h1>
+                <h4>Join Twitter today</h4>
+                <button type="button" class="sign-up main-btn">Sign Up</button>
+                <button type="button" class="log-in main-btn">Log In</button>
+            </div>
+
+        </div>
+        <!-- end of right -->
+        <!-- footer -->
+        <footer class="main-page-footer">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">&copy; 2022 Twitter</a></li>
+            </ul>
+        </footer>
+        <!-- end of footer -->
+    </section>
+    <!-- end of main page -->
+
+    <!-- Login page -->
+    <section class="login-page">
+        <!--nav of log-in  -->
+        <nav class="nav-login-page">
+            <ul>
+                <li class="brand"><a href="#"><i class="fas fa-dove"></i>Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Language: English</a></li>
+            </ul>
+        </nav>
+        <!-- end of nav log-in -->
+        <!-- login -->
+        <div class="login">
+            <div class="log-in-content">
+                <h2>Log in to Twitter</h2>
+                <form class="log-in-form">
+                    <input type="text" placeholder="Phone, E-mail or username" class="login-user-info" />
+                    <input type="password" placeholder="Password" class="login-password" />
+                    <div>
+                        <button type="button" class="log-in-form-btn">Login In</button>
+                        <input type="checkbox" class="log-in-form-checkbox" id="check" />
+                        <label for="check">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </form>
+            </div>
+            <!-- log-in-footer -->
+            <footer class="log-in-footer">
+                <p>New to Twitter? <a href="#">Sign Up now</a></p>
+                <p>Already using Twitter via text message? <a href="#">
+                        Activate your account</a></p>
+            </footer>
+            <!-- end of log-in-footer -->
+        </div>
+        <!-- end of login -->
+        <!-- login-modal -->
+        <div class="login-modal">
+            <i class="fas fa-times login-modal-icon"></i>
+            <p>The username and password that you have entered did not match our records. Please double check and try
+                again.</p>
+        </div>
+        <!-- end of login modal -->
+    </section>
+    <!-- end of login page -->
+
+    <!-- feeds page -->
+    <section class="feeds-page">
+        <!-- feeds nav -->
+        <nav class="feeds-nav dark-mode-1">
+            <div class="icons">
+                <a href="#" class="active"><i class="fas fa-home"></i></a>
+                <a href="#"><i class="fas fa-hashtag"></i></a>
+                <a href="#"><i class="far fa-bell"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+            <div class="search-bar ">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search Twitter" class="search-bar-input dark-mode-2 light-text border">
+            </div>
+            <div class="user">
+                <div class="user-img-wrapper">
+                    <img src="images/profile.jpg">
+                </div>
+                <div>
+                    <a href="#" class="user-link light-text">Josephine Hamilton</a>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- end of feeds nav -->
+        <!-- feeds content -->
+        <div class="feeds-content dark-mode-2">
+            <div class="feeds-header dark-mode-1">
+                <div class="header-top border">
+                    <h4 class="light-text">Home</h4>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="header-post dark-mode-1 border">
+                    <div class="header-img-wrapper">
+                        <img src="images/profile.jpg">
+                    </div>
+                    <input type="text" placeholder="What's happenning?" class="header-post-input dark-mode-2 light-text border">
+                    <i class="fas fa-image"></i>
+                    <i class="fas fa-camera"></i>
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+            </div>
+            <div class="posts dark-mode-1">
+                <div class="post border">
+                    <div class="user-avatar">
+                        <img src="images/user-1.jpg">
+                    </div>
+                    <div class="post-conent">
+                        <div class="post-user-info light-text">
+                            <h4>Mark Jones</h4>
+                            <i class="fas fa-check-circle "></i>
+                            <span>@markjones 15m</span>
+                        </div>
+                        <p class="post-text light-text">Interest in the world’s biggest cryptocurrency has soared this year, with
+                            investors viewing bitcoin as a hedge against inflation and an alternative to the
+                            depreciating dollar. The rush led to bitcoin prices more than tripling in the past six
+                            months to a record peak of $34,800 on Jan. 2.
+
+                            “Bitcoin’s competition with gold has already started in our mind,” the Wall Street bank’s
+                            strategists said in a note, citing recent $7 billion outflows from gold and more than $3
+                            billion of inflows into the Grayscale Bitcoin Trust.
+
+                            That could mark a new dawn for the volatile digital currency after years as a play for
+                            speculators and retail punters.</p>
+                        <div class="post-img">
+                            <img src="images/user-1-post.jpg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post border">
+                    <div class="user-avatar">
+                        <img src="images/user-2.jpg">
+                    </div>
+                    <div class="post-conent">
+                        <div class="post-user-info light-text">
+                            <h4>Angellina Garcia</h4>
+                            <i class="fas fa-check-circle "></i>
+                            <span>@angellinagarcia 21m</span>
+                        </div>
+                        <p class="post-text light-text">Practicing and learning desgins for making my own outfits one day. These
+                            are few of my favourites that I have desgined. Thrilled to share it with you all!!!</p>
+                        <div class="post-img">
+                            <img src="images/user-2-post.jpg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post border">
+                    <div class="user-avatar">
+                        <img src="images/user-3.jpg">
+                    </div>
+                    <div class="post-conent">
+                        <div class="post-user-info light-text">
+                            <h4>Sara Williams</h4>
+                            <i class="fas fa-check-circle "></i>
+                            <span>@sarawilliams 25m</span>
+                        </div>
+                        <p class="post-text light-text">In my childhood i always dreamed of becoming an anchor on telivision news. So, here I am starting my new journey at my dream come true news channel "Times Now" as a consultant anchor. Extremely excited and will definately sharpen and enhance my character in this field!!</p>
+                        <div class="post-img">
+                            <img src="images/user-3-post.jpg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post border">
+                    <div class="user-avatar">
+                        <img src="images/user-4.jpg">
+                    </div>
+                    <div class="post-conent">
+                        <div class="post-user-info light-text">
+                            <h4>Noah Haddington</h4>
+                            <i class="fas fa-check-circle "></i>
+                            <span>@noahHaddigton 38m</span>
+                        </div>
+                        <p class="post-text light-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                            aperiam architecto impedit unde et labore cumque? Possimus laboriosam accusamus impedit
+                            consequatur quis veniam recusandae, totam velit beatae incidunt facilis magnam?</p>
+                        <div class="post-img">
+                            <img src="images/user-4-post.jpg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post border">
+                    <div class="user-avatar">
+                        <img src="images/user-5.jpg">
+                    </div>
+                    <div class="post-conent">
+                        <div class="post-user-info light-text">
+                            <h4>Oliver Brown</h4>
+                            <i class="fas fa-check-circle "></i>
+                            <span>@oliver 45m</span>
+                        </div>
+                        <p class="post-text light-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                            aperiam architecto impedit unde et labore cumque? Possimus laboriosam accusamus impedit
+                            consequatur quis veniam recusandae, totam velit beatae incidunt facilis magnam?</p>
+                        <div class="post-img">
+                            <img src="images/user-5-post.jpg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post border">
+                    <div class="user-avatar">
+                        <img src="images/user-6.jpg">
+                    </div>
+                    <div class="post-conent">
+                        <div class="post-user-info light-text">
+                            <h4>Kriti Gupta</h4>
+                            <i class="fas fa-check-circle "></i>
+                            <span>@kritigupta 58m</span>
+                        </div>
+                        <p class="post-text light-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                            aperiam architecto impedit unde et labore cumque? Possimus laboriosam accusamus impedit
+                            consequatur quis veniam recusandae, totam velit beatae incidunt facilis magnam?</p>
+                        <div class="post-img">
+                            <img src="images/user-6-post.jpg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="follow dark-mode-1">
+                <h3 class="follow-heading light-text border"> Who to follow</h3>
+                <div class="follow-user border">
+                    <div class="follow-user-img">
+                        <img src="images/follow-1.jpg">
+                    </div>
+                    <div class="follow-user-info light-text">
+                        <h4>Alice Xiàng</h4>
+                        <p>@alicexiàng</p>
+                    </div>
+                    <button type="button" class="follow-btn dark-mode-2">Follow</button>
+                </div>
+                <div class="follow-user border">
+                    <div class="follow-user-img">
+                        <img src="images/follow-2.jpg">
+                    </div>
+                    <div class="follow-user-info light-text">
+                        <h4>Jonathan Gigs</h4>
+                        <p>@jonathangigs</p>
+                    </div>
+                    <button type="button" class="follow-btn dark-mode-2">Follow</button>
+                </div>
+                <div class="follow-user border">
+                    <div class="follow-user-img">
+                        <img src="images/follow-3.jpg">
+                    </div>
+                    <div class="follow-user-info light-text">
+                        <h4>Carlos Rodríguez</h4>
+                        <p>@carlosrodríguez</p>
+                    </div>
+                    <button type="button" class="follow-btn dark-mode-2">Follow</button>
+                </div>
+                <div class="follow-link">
+                    <a href="#">Show more</a>
+                </div>
+                <footer class="follow-footer dark-mode-2">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+        <!-- end of feeds content -->
+        <button type="button" class="post-btn"> +<i class="fas fa-feather"> Post</i></button>
+        <!-- post modal box -->
+        <div class="modal-wrapper">
+            <div class="modal dark-mode-1">
+                <div class="modal-header border">
+                    <i class="fas fa-times"></i>
+                    <button type="button">Post</button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img">
+                        <img src="images/profile.jpg">
+                    </div>
+                    <input type="text" placeholder="What's happening?" class="modal-input dark-mode-2 light-text border">
+                    <i class="far fa-smile"></i>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-icons">
+                        <i class="fas fa-image"></i>
+                        <i class="fas fa-camera"></i>
+                        <i class="fas fa-chart-bar"></i>
+                        <span>+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of post modal box -->
+
+        <!-- sidebar -->
+        <div class="sidebar-wrapper">
+            <div class="sidebar dark-mode-1">
+                <div class="sidebar-header border">
+                    <h2 class="light-text">Account info</h2>
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="sidebar-user">
+                    <div class="sidebar-user-img">
+                        <img src="images/profile.jpg">
+                    </div>
+                    <span>+</span>
+                </div>
+                <div class="sidebar-user-info light-text">
+                    <h4>Josephine Hamilton</h4>
+                    <p>@josephineHamilton</p>
+                </div>
+                <div class="following light-text">
+                    <p class="following-paragraph">
+                        <span>450</span> Following
+                    </p>
+                    <p class="following-paragraph">
+                        <span>2.5k</span> Followers
+                    </p>
+                </div>
+                <div class="sidebar-list-1 border">
+                    <ul>
+                        <li><a href="#">
+                                <i class="fas fa-user"></i> Profile
+                            </a></li>
+                        <li><a href="#">
+                                <i class="far fa-list-alt"></i> Lists
+                            </a></li>
+                        <li><a href="#">
+                                <i class="far fa-bookmark"></i> Bookmarks
+                            </a></li>
+                        <li><a href="#">
+                                <i class="fab fa-adversal"></i> Ads
+                            </a></li>
+                        <li><a href="#">
+                                <i class="fas fa-chart-line"></i> Analytics
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-list-2">
+                    <ul>
+                        <li><a href="#">
+                                Settings and Privacy
+                            </a></li>
+                            <li><a href="#">
+                                Help Center
+                            </a></li>
+                            <li><a href="#">
+                                Log Out
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="dark-mode">
+                    <p>Dark Mode</p>
+                    <div class="toggle">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of sidebar -->
+    </section>
+    <!-- end of feeds page -->
+</body>
+
+<script src="script.js"></script>
+
+</html>
